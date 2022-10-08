@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Web pages, Flexbox and Grid Layouts</title>
+    <meta name="description" content="This is the week 10 lab. In this lab we will explore
+    Responsive Web pages, Flexbox and Grid Layouts.">
+    <meta name="keywords" content="Week 10, Responsive Web pages, Flexbox, Grid, Layouts">
+    <meta name="author" content="Leonard Zajaczkowski">
+    <link href="web.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <img src="gbc_logo.jpg" alt="gbc logo">
+            <h1>CSS Box Model, Layout and Semantic Elements</h1>
+            <nav id="nav_menu">
+                <ul>
+                    <li>
+                        <a href="#aside">Aside</a>
+                    </li>
+                    <li>
+                        <a href="#footer" >Footer</a>
+                    </li>
+                    <li>
+                        <a href="#top">Top of page</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+            <article>
+                <h2>This is the article.</h2>
+                <form>
+                    <fieldset>
+                        <legend>Application form</legend>
+                    <table>
+                        <tr>
+                            <th><label for="fname ">First name</label></th>
+                            <td><input type="text"  id="fname"  name="fname" size="20"></td>
+                            
+                        </tr>
+                        <tr>
+                            <th><label for="lname ">Last name</label></th>
+                            <td><input type="text"  id="lname"  name="lname" size="20"></td>
+                        </tr>
+                        <tr>
+                            <th><label for="email">Email</label></th>
+                            <td><input type="eamil"  id="email" name="email" size="20"></td>
+                        </tr>
+                        <tr>
+                            <th><label for="province">Province</label></th>
+                            <td>
+                                <select name="province" id="province">
+                                    <option value="1">Ontario</option>
+                                    <option value="2">Nova Scotia</option>
+                                    <option value="3">Alberta</option>
+                                    <option value="4">British</option>
+                                    <option value="5">Quebec </option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label>Gender</label></th>
+                            <td>
+                                <input type="radio" name="gender" value="male">male
+                                <input type="radio" name="gender" value="femal">femal
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label>Payment</label></th>
+                            <td>
+                                <input type="checkbox" name="p1" value="credit">credit
+                                <input type="checkbox" name="p2" value="debit">debit
+                                <input type="checkbox" name="p3" value="cash">cash
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label for="address">address</label></th>
+                            <td>
+                                <textarea name="address" id="address" cols="30" rows="6">
+                                    Type your address here......
+
+                                </textarea>
+                            </td>
+                        </tr>
+                        <tr><th><label for="invoice">Upload invoice</label></th>
+                            <td>
+                                <input type="file" id="invoice" name="invoice" accept=".doc,.pdf,.docx">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="radio" name="agree" id="agree" required>
+                                <label>I agree wiht your terms</label>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" value="submit">
+                                <button type="reset">reset</button>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                </form>
+           
+            </article>
+            <aside id="aside">
+                <h2>This the aside</h2>
+                <dl>
+                    <dt><a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">W3 CSS Box Model</a> </dt>
+                    <dd>CSS box model explains how width, height, margin, border and padding work together to form a box around elements.</dd>
+                    <dt><a href="https://www.w3schools.com/css/css_positioning.asp" target="_blank">W3 CSS Layout</a> </dt>
+                    <dd>CSS layout explains how to use absolute and relative position to allow elements to be positioned outside the normal flow of HTML page.</dd>
+                </dl>
+            </aside>
+
+        </main>
+        <footer id="footer">
+            <h3>This is the footer.</h3>
+        </footer>
+    </div>
+    <script src="https://my.gblearn.com/js/loadscript.js"></script>
+</body>
+</html>

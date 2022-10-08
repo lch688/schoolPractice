@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice</title>
+    <meta name ="author" content="chenhao liu">
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+    <div>
+        <h1>Clothing Shop Order List</h1>
+    <form action="clothing shop">
+        <fieldset>
+            <legend>
+                order list
+            </legend>
+            <table>
+                    <tr>
+                        <th><label for="fname ">Full name:</label></th>
+                        <td><input type="text"  id="fname"  name="fname" size="20"  pattern="[A-Za-z]+" required placeholder="please input your full name"></td>
+
+                    </tr>
+                    <tr>
+                        <th><label for="email">Email:</label></th>
+                        <td><input type="email"  id="email" name="email" size="20" required></td>
+                    </tr>
+                    <tr>
+                    <th><label for="phone">Phone number:</label></th>
+                        <td><input type="tel" name="tel" id="tel" placeholder="+1 0123456789" pattern="[0-9]+" >(optional)</td>
+                    </tr>
+                   
+                    <tr>
+                        <th><label for="category">Category:</label></th>
+                        <td> 
+                            <input type="checkbox" name="sweaters" value="sweaters">sweaters
+                            <input type="checkbox" name="blouses" id="blouses" >blouses
+                            <input type="checkbox" name="pants" id="pants" >pants
+                        </td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>
+                            <input type="checkbox" name="dresses" id="dresses" >dresses
+                            <input type="checkbox" name="jackets" id="jackets" >jackets
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="range">Sizes:</label></th>
+                        <td>
+                            <input type='range' name="range" id="range" min="2" max="10" step="2"  size="20" required>2 to 10(in 2 increase)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="color">Choose a color</label>
+                        </th>
+                        <td>
+                            <input type="color" id="color"  value="#f00f00">(default red)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="fabric">Fabric:</label></th>
+                        <td>
+                            <select name="fabric" id="fabric"  required>
+                                
+                                <option value="cotton">cotton</option>
+                                <option value="velvet">velvet</option>
+                                <option value="linen">linen</option>
+                            
+                            </select>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="address">Shipping address</label></th>
+                        <td>
+                                <textarea name="address" id="address  colspan="60"   rows="5" placeholder="Paste your address here......" required>
+                                    
+
+                                </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label>Shipping mode:</label></th>
+                        <td>
+                            <input type="radio" name="Shipping" id="Shipping" value="urgent" required>urgent, 
+                            <input type="radio" name="Shipping" id="Shipping" value="regular" required>regular
+                        </td>
+                    </tr>
+                    <tr >
+                        <td colspan="2" id="last">
+                            <input type="submit" value="submit">
+                            <button type="reset">reset</button>
+                        </td>
+                    </tr>
+                  
+            </table>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regex</title>
+    <link href="regex.css" rel="stylesheet" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+
+      <section class="phoneView">
+        <form id="phoneForm" class="phoneForm">
+          <label for="phoneNum">Please enter your phone number:</label>
+            <br>
+            <input
+            id="phoneNum" 
+            class="phoneNum"
+            type="text" 
+            autocomplete="off"
+          />
+          <p class="phoneFormat">Examples: 
+            (555)555-5555 or 123-456-7899
+          </p>  
+        </form>
+      </section>
+
+      <h2>Removing extra spaces from input string, using Regex</h2>
+      <section class="textView">
+        <form id="textForm" class="textForm">
+          <label for="textEntry">Please enter some text and hit enter:</label>
+          <input
+            id="textEntry" 
+            class="textEntry"
+            type="text" 
+            autocomplete="off"
+          />
+
+          <div id="outputText">
+
+          </div>
+        </form>
+      </section>
+  </body>
+</html>

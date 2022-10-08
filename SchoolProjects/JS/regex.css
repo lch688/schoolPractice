@@ -1,0 +1,33 @@
+section {
+  width: 100vw;
+  height: 50vh;
+}
+
+label {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 30vw;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.phoneFormat {
+  display: none;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.block {
+  display: block;
+}
+
+.invalid {
+  color: red;
+}

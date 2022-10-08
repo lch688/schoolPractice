@@ -1,0 +1,33 @@
+body{
+    background-image: url(images/background3.jpg);
+    text-transform: capitalize;
+}
+h2{
+    margin-top: 100px;
+    text-align: center;
+    color: brown;
+}
+p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 200%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+iframe{
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    margin-left: 500px;
+}
+.navi{
+    word-spacing: 100px;
+    margin-top: 30px;
+    text-shadow: coral;
+}
+a:hover{
+    font-size: 150%;
+    color:brown;
+    
+
+
+}
